@@ -11,6 +11,7 @@
     ],
     "documents": {
         "admin": "yay you got it working....\nor are just reading the database\n\ntry editing this or typing something below\n\nhello world\n\ntodo\n    -stuff\n    -other stuff",
-        "dmcgrory": "Cordial\n\nIngredients\nOranges\nLemons\nWater\nSugar\n\nMethod\n1. Juice oranges and lemons.\n2. Slice lemon peel, place juice and peel into a large pot and add water."
+        "dmcgrory": "Cordial\n\nIngredients\nOranges\nLemons\nWater\nSugar\n\nMethod\n1. Juice oranges and lemons.\n2. Slice lemon peel, place juice and peel into a large pot and add water.",
+        "null": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
     }
 }
