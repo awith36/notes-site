@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOTES</title>
+    <style>
+    body {
+        background-color: #181818;
+    
+    }
+    h1 {
+        color: white;
+    }
+
+    textarea {
+        background-color: black;
+        color: white;
+        font-size: 18px
+    }
+    .bar {
+        background-color: white;
+    }
+    </style>
+
+</head>
+
+<body>
+    <h1>Notebook</h1>
+    <div class="bar">
+
+        
+        
+        <button onclick="save()"><img src="/static/save.png"></button>
+    </div>
+    
+    <br>
+    <textarea name="text" id="text" cols="300" rows="200">loading...</textarea>
+
+
+<script>
+    //get the text from the server
+    fetch("/getNotes")
+    .then(response => response.text())
+    .then(data => document.getElementById("text").value = data)
+
+function save() {
+    //post the text to the server
+    fetch("http://127.0.0.1/save", {
+        method: "POST",
+        headers: {
+            'content-type': 'application/json'
+        },
+        body: JSON.stringify({
+        text: document.getElementById("text").value
+        })
+    })
+}
+
+</script>
+
+
+</body>
+
+

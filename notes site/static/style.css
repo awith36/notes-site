@@ -1,0 +1,43 @@
+body {
+    background-color: #181818;
+}
+
+.box {
+  display: flex;
+  justify-content: center; 
+  align-items:center;
+  height: 60vh;    
+}
+
+.box2 {
+    border-color: white;
+    border-style:solid;
+    padding: 40px;
+}
+
+.flex-container {
+    border: 2px;
+    border-color: white;
+}
+
+.title {
+    font-size:xxx-large;
+    font-family: monospace;
+}
+
+button {
+    background-color: green;
+    color: black;          
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 15px;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    color: white;
+    text-align: left;
+}

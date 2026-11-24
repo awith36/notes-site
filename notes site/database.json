@@ -1,0 +1,16 @@
+{
+    "users": [
+        {
+            "username": "admin",
+            "password": "admin"
+        },
+        {
+            "username": "dmcgrory",
+            "password": "Password-001"
+        }
+    ],
+    "documents": {
+        "admin": "yay you got it working....\nor are just reading the database\n\ntry editing this or typing something below\n\nhello world\n\ntodo\n    -stuff\n    -other stuff",
+        "dmcgrory": "Cordial\n\nIngredients\nOranges\nLemons\nWater\nSugar\n\nMethod\n1. Juice oranges and lemons.\n2. Slice lemon peel, place juice and peel into a large pot and add water."
+    }
+}
