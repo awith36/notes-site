@@ -95,7 +95,7 @@ p {
             let user = document.getElementById("username").value;
             let pass = document.getElementById("password").value;
 
-            fetch("http://127.0.0.1/newUser", {
+            fetch("/newUser", {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'

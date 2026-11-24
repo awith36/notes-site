@@ -59,7 +59,7 @@ def newUser():
 
     # write data to the python dictionary
     database["users"].append(data)
-    database["documents"][username] = ""placeholder="start typing...""
+    database["documents"][username] = "start type here"
 
     # write python dictionary to the database and reload
     with open("database.json", "w") as file:
@@ -149,7 +149,7 @@ def save():
 
 
 # surely you can figure this one out yourself
-app.run(host="0.0.0.0",port=80)
+app.run(host="0.0.0.0",port=8080)
 
 
 
