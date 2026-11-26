@@ -45,7 +45,7 @@ def notes():
 def signup():
     return render_template("signup.html")
 
-# creating thenew username
+# creating the new username
 @app.route("/newUser", methods=["POST"])
 def newUser():
 
