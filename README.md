@@ -1,1 +1,1 @@
-# notes-site-school-project-
+# notes-site
