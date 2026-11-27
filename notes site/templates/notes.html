@@ -34,7 +34,7 @@
         
         
         <button onclick="save()"><img src="/static/save.png"></button>
-        <a href="/"><img src="/static/signout.webp"width="80"></a>
+        <button onclick="exit()"><img src="/static/signout.webp" width="80"</button>
     </div>
     
     <br>
@@ -59,7 +59,15 @@ function save() {
         })
     })
 
-    alert("saved :)");
+    alert("saved!!!");
+}
+
+
+
+//exit
+function exit() {
+    alert("To come back later just log in \n    :)")
+    window.location.href = ("/");
 }
 
 </script>

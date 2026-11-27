@@ -3,14 +3,9 @@
         {
             "username": "admin",
             "password": "admin"
-        },
-        {
-            "username": "user1",
-            "password": "user1"
         }
     ],
     "documents": {
-        "admin": "Hello World\n\n\nstuff\n\nTODO\n    -stuff\n    -other stuff",
-        "user1": "start type hereklsadjfewjfnasdlnvlakmdc"
+        "admin": "Hello World\n\n\nstuff\n\nTODO\n    -stuff\n    -other stuff"
     }
 }

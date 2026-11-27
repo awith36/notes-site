@@ -59,7 +59,7 @@ def newUser():
 
     # write data to the python dictionary
     database["users"].append(data)
-    database["documents"][username] = "start type here"
+    database["documents"][username] = "type here"
 
     # write python dictionary to the database and reload
     with open("database.json", "w") as file:
